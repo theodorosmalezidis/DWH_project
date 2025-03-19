@@ -1,3 +1,12 @@
+/*
+--------------------------------------------------------------------------
+Create Tables for Bronze Schema
+--------------------------------------------------------------------------
+
+This script creates tables in the Bronze Schema, dropping existing tables 
+    if they already exist.
+*/
+
 
 DROP TABLE IF EXISTS bronze.crm_clients_info;
 CREATE TABLE bronze.crm_clients_info(
