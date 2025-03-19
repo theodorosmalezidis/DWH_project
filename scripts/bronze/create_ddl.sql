@@ -40,8 +40,8 @@ transaction_id NVARCHAR(50),
 client_id INT,
 product_id NVARCHAR(50),
 transaction_date DATETIME,
-invested_amount INT,
-withdrawal_amount INT,
+invested_amount  NVARCHAR(50),--some values have the $ except from INT--
+withdrawal_amount NVARCHAR(50),--some values have the $ except from INT--
 );
 
 DROP TABLE IF EXISTS bronze.erp_HR_data;
