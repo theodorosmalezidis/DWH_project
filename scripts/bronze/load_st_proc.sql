@@ -4,7 +4,7 @@ Bronze Schema Stored Procedure
 ----------------------------------------------------------------
 This script creates the stored procedure to load the data from external source into the Bronze Schema tables (Source -> Brone Schema)
 Steps:
-	- Truncates the tables before loading data.
+  - Truncates the tables before loading data.
   - Uses the `BULK INSERT` command to load data from csv Files into tables.
 
 To execute this stored procedure, you can use the following command: EXECUTE bronze.load_schema
