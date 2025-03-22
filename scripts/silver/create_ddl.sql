@@ -1,3 +1,13 @@
+/*
+--------------------------------------------------------------------------
+Create Tables for Silver Schema
+--------------------------------------------------------------------------
+
+This script creates tables in the Silver Schema, dropping existing tables 
+    if they already exist.
+*/
+
+
 DROP TABLE IF EXISTS silver.crm_clients_info;
 CREATE TABLE silver.crm_clients_info(
 client_id INT,
