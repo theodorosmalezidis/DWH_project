@@ -52,8 +52,8 @@ DROP TABLE IF EXISTS silver.erp_HR_data;
 CREATE TABLE silver.erp_HR_data(
 employee_id NVARCHAR(50),
 employee_full_name NVARCHAR(50),
-gender NVARCHAR(50),
-marital_status NVARCHAR(50),
+employee_gender NVARCHAR(50),
+employee_marital_status NVARCHAR(50),
 department NVARCHAR(50),
 position NVARCHAR(50),
 hiring_date DATE,
