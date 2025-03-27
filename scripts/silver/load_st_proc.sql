@@ -142,7 +142,7 @@ INSERT INTO silver.erp_HR_data(
 )
 SELECT
 	ISNULL(TRIM(employee_id), 'n/a') AS employee_id,
-	TRIM(employee_full_name) AS employee_full_name,
+	ISNULL(TRIM(employee_full_name), 'n/a') AS employee_full_name,
 	CASE WHEN UPPER(TRIM(gender)) = 'M' THEN 'Male'
 		 WHEN UPPER(TRIM(gender)) = 'F' THEN 'Female'
 		 ELSE 'n/a'
