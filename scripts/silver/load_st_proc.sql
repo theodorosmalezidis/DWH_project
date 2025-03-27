@@ -82,7 +82,7 @@ INSERT INTO silver.crm_branch_cnt_loc(
 	branch,
 	client_id)
 SELECT
-	ISNULL(TRIM(branch), 'n/a') AS branch,
+	ISNULL(UPPER(LEFT(TRIM(branch), 1)) + LOWER(SUBSTRING(TRIM(branch), 2, LEN(branch))), 'n/a') AS branch,
 	client_id
 FROM (
     SELECT *, 
