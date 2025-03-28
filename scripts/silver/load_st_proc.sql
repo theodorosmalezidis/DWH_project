@@ -108,8 +108,8 @@ SELECT
 	client_id,
 	ISNULL(TRIM(product_id), 'n/a') AS product_id,
 	CAST(transaction_date AS DATE) AS transaction_date,
-	CAST(REPLACE(invested_amount, '$', '') AS INT) AS invested_amount,
-	CAST(REPLACE(withdrawal_amount, '$', '') AS INT) AS withdrawal_amount
+	CAST(REPLACE(ISNULL(invested_amount, '0'), '$', '') AS INT) AS invested_amount,
+	CAST(REPLACE(ISNULL(withdrawal_amount, '0'), '$', '') AS INT) AS withdrawal_amount
 FROM (
 	SELECT *,
 	ROW_NUMBER() OVER(PARTITION BY transaction_id ORDER BY transaction_id) AS rn
