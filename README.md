@@ -28,3 +28,9 @@ In this project, I simulated the creation of the raw data using Python, trying t
 
 ![source](architecture/data_source_structure.png)
 
+![source](architecture/data_flow.png)
+
+![source](architecture/layers_architecture.png)
+
+![source](architecture/star_schema.png)
+
