@@ -57,5 +57,5 @@ This structured data model follows a star schema design , optimized for analytic
 ![source](architecture/star_schema.png)
 
 
-Fell free to check the scripts [here]!(https://github.com/theodorosmalezidis/DWH_project/tree/main/scripts). These include the ETL processes and SQL queries used to build the Bronze, Silver, and Gold layers of the data warehouse.
+Feel free to check the scripts [here](https://github.com/theodorosmalezidis/DWH_project/tree/main/scripts). These include the ETL processes and SQL queries used to build and populate the Bronze, Silver, and Gold layers of the data warehouse.
 
