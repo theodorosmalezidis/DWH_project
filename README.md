@@ -37,7 +37,7 @@ This diagram represents how the raw data was stored when extracted from the sour
 
 A clear description of the process. A diagram of the  Medallion Architecture showing the exact ETL pipeline, highlighting how raw data is transformed into analytics-ready datasets.
     
-![source](DWH_project/architecture/3_layers_architecture.png)
+![source](architecture/3_layers_architecture.png)
 
 - **Bronze Layer :** Holds raw data exactly as it comes from CSV files, loaded into a SQL Server Database.  
 - **Silver Layer :** Cleans up and organizes the data, getting it ready for analysis.  
