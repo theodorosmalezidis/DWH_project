@@ -25,6 +25,6 @@ In this project, I simulated the creation of the raw data using Python, trying t
 
 
 # Overview
-![source](architecture/data_source_structure.png)
 
 ![source](architecture/data_source_structure.png)
+
