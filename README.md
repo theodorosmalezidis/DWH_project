@@ -21,8 +21,10 @@ In this project, I simulated the creation of the raw data using Python, trying t
 - **SQL:**  The go-to language I used to interact with my data. 
 - **Git:**  My trusty version control tool that helped me keep track of changes. 
 - **GitHub:**  Where I shared my SQL scripts and kept everything organized, making it easier to track progress. 
-- **Draw.io:**  A simple yet powerful tool I used to design and visualize the architecture of my data warehouse.
+- **Draw.io:**  A simple yet powerful tool I used to design and visualize the architecture of my data warehouse. 
 
 
 # Overview
+![source](architecture/data_source_structure.png)
+
 ![source](architecture/data_source_structure.png)
