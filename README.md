@@ -1,8 +1,8 @@
-# DWH_project
+
 
 # Introduction
 
-This project is my first step into data engineering and demonstrates the end-to-end development of a data warehouse tailored for an investment firm. The goal is to organize raw data stored across multiple sources into a structured, analytics-ready platform optimized for reporting and decision-making.
+This project is my first step into data engineering and demonstrates the end-to-end development of an on-premise data warehouse tailored for an investment firm. In this scenario, the goal is to organize raw data stored across multiple sources into a structured, analytics-ready platform optimized for reporting and decision-making.
 
 # Goals
 
@@ -26,11 +26,36 @@ In this project, I simulated the creation of the raw data using Python, trying t
 
 # Overview
 
+## Raw Data Structure and Source Integration
+
+This diagram represents how the raw data was stored when extracted from the source systems and the relationships between the CSV files.
+
 ![source](architecture/data_source_structure.png)
+
+
+## Data Architecture
+
+A clear description of the process. A diagram of the  Medallion Architecture showing the exact ETL pipeline, highlighting how raw data is transformed into analytics-ready datasets.
+    
+![source](architecture/layers_architecture.png)
+
+- **Bronze Layer :** Holds raw data exactly as it comes from CSV files, loaded into a SQL Server Database.  
+- **Silver Layer :** Cleans up and organizes the data, getting it ready for analysis.  
+- **Gold Layer :** Final stop—data is structured into a star schema for reports and insights.
+     
+
+## Data Flow
+
+The path of raw data from its source to the final stage, ready for analytics and visualization.
 
 ![source](architecture/data_flow.png)
 
-![source](architecture/layers_architecture.png)
+## Data Model
+
+This structured data model follows a star schema design , optimized for analytics and reporting. It consists of three fact tables , surrounded by three dimension tables.
 
 ![source](architecture/star_schema.png)
+
+
+Fell free to check the scripts [here]!(https://github.com/theodorosmalezidis/DWH_project/tree/main/scripts). These include the ETL processes and SQL queries used to build the Bronze, Silver, and Gold layers of the data warehouse.
 
