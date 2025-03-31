@@ -76,7 +76,7 @@
 
 ---
 
-### 6. **gold.fact_employee_product**(A table that connects employees to the products they have researched and analyzed)
+### 6. **gold.fact_employee_product** (A table that connects employees to the products they have researched and analyzed)
 
 
 | Column Name      | Data Type     | Description                                                                                   |
