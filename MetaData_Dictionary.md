@@ -1,7 +1,7 @@
 # MetaData Dictionary for Gold Layer (Star Schema)
 
 
----
+
 
 ### 1. **gold.dim_clients**
 
