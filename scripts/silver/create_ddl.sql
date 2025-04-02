@@ -42,7 +42,7 @@ CREATE TABLE silver.crm_transactions_details(
 transaction_id NVARCHAR(50),
 client_id INT,
 product_id NVARCHAR(50),
-transaction_date DATETIME,
+transaction_date DATE,
 invested_amount  NVARCHAR(50),
 withdrawal_amount NVARCHAR(50),
 dwh_create_date    DATETIME2 DEFAULT GETDATE()
