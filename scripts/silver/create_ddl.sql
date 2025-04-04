@@ -43,8 +43,8 @@ transaction_id NVARCHAR(50),
 client_id INT,
 product_id NVARCHAR(50),
 transaction_date DATE,
-invested_amount  NVARCHAR(50),
-withdrawal_amount NVARCHAR(50),
+invested_amount  INT,
+withdrawal_amount INT,
 dwh_create_date    DATETIME2 DEFAULT GETDATE()
 );
 
