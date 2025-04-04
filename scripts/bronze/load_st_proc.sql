@@ -28,7 +28,7 @@ BEGIN
 		PRINT '---------------------------------------------------------------------';
 		TRUNCATE TABLE bronze.crm_branch_cnt_loc;
 		BULK INSERT bronze.crm_branch_cnt_loc
-		FROM 'C:\Users\User\Desktop\dwh project\sources\crm\branch_cnt_loc.csv'
+		FROM 'C:\Users\User\Desktop\portofolio projects\dwh project\sources\crm\branch_cnt_loc.csv'
 		WITH (
 			FIRSTROW=2, 
 			FIELDTERMINATOR = ';'
@@ -37,7 +37,7 @@ BEGIN
 
 		TRUNCATE TABLE bronze.crm_clients_info;
 		BULK INSERT bronze.crm_clients_info
-		FROM 'C:\Users\User\Desktop\dwh project\sources\crm\clients_info.csv'
+		FROM 'C:\Users\User\Desktop\portofolio projects\dwh project\sources\crm\clients_info.csv'
 		WITH (
 			FIRSTROW=2, 
 			FIELDTERMINATOR = ';'
@@ -46,7 +46,7 @@ BEGIN
 
 		TRUNCATE TABLE bronze.crm_prds_info;
 		BULK INSERT bronze.crm_prds_info
-		FROM 'C:\Users\User\Desktop\dwh project\sources\crm\prds_info.csv'
+		FROM 'C:\Users\User\Desktop\portofolio projects\dwh project\sources\crm\prds_info.csv'
 		WITH (
 			FIRSTROW=2, 
 			FIELDTERMINATOR = ';'
@@ -55,7 +55,7 @@ BEGIN
 
 		TRUNCATE TABLE bronze.crm_transactions_details;
 		BULK INSERT bronze.crm_transactions_details
-		FROM 'C:\Users\User\Desktop\dwh project\sources\crm\transactions_details.csv'
+		FROM 'C:\Users\User\Desktop\portofolio projects\dwh project\sources\crm\transactions_details.csv'
 		WITH (
 			FIRSTROW=2, 
 			FIELDTERMINATOR = ';'
@@ -71,7 +71,7 @@ BEGIN
 		PRINT '---------------------------------------------------------------------';
 		TRUNCATE TABLE bronze.erp_branch_emp_loc;
 		BULK INSERT bronze.erp_branch_emp_loc
-		FROM 'C:\Users\User\Desktop\dwh project\sources\erp\branch_emp_loc.csv'
+		FROM 'C:\Users\User\Desktop\portofolio projects\dwh project\sources\erp\branch_emp_loc.csv'
 		WITH (
 			FIRSTROW=2, 
 			FIELDTERMINATOR = ';'
@@ -80,7 +80,7 @@ BEGIN
 
 		TRUNCATE TABLE bronze.erp_HR_data;
 		BULK INSERT bronze.erp_HR_data
-		FROM 'C:\Users\User\Desktop\dwh project\sources\erp\HR_data.csv'
+		FROM 'C:\Users\User\Desktop\portofolio projects\dwh project\sources\erp\HR_data.csv'
 		WITH (
 			FIRSTROW=2, 
 			FIELDTERMINATOR = ';'
@@ -89,7 +89,7 @@ BEGIN
 
 		TRUNCATE TABLE bronze.erp_research_data;
 		BULK INSERT bronze.erp_research_data
-		FROM 'C:\Users\User\Desktop\dwh project\sources\erp\research_data.csv'
+		FROM 'C:\Users\User\Desktop\portofolio projects\dwh project\sources\erp\research_data.csv'
 		WITH (
 			FIRSTROW=2, 
 			FIELDTERMINATOR = ';'
@@ -111,7 +111,3 @@ BEGIN
 		PRINT '==========================================================';
 	END CATCH
 END
-
-
-
-
