@@ -18,7 +18,8 @@ In this project, I simulated the creation of the raw data using Python, trying t
 
 - **Python:**  A flexible programming language with tons of helpful libraries that made it easy for me to create my dataset. 
 - **SQL Server (SQLS):**  A powerful database system I used to store my data and run fast, efficient queries. 
-- **SQL:**  The go-to language I used to interact with my data. 
+- **SQL:**  The go-to language I used to interact with my data.
+- **VSCode:**  A versatile code editor I used to integrate with GitHub to create and format my documentation and manage project files.
 - **Git:**  My trusty version control tool that helped me keep track of changes. 
 - **GitHub:**  Where I shared my SQL scripts and kept everything organized, making it easier to track progress. 
 - **Draw.io:**  A simple yet powerful tool I used to design and visualize the architecture of my data warehouse. 
